@@ -10,6 +10,8 @@ body {
     background-color: #1F2937;
     align-items: center;
     padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .logo {
@@ -43,7 +45,7 @@ ul {
 }
 
 .ski {
-    width: 300px;
+    width: 350px;
     height: auto;
 }
 
@@ -54,7 +56,17 @@ ul {
     color: #F9FAF8;
 }
 
+.subtext {
+    font-family: "Hero Secondary text", sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 button {
     padding: 8px 24px;
     width: fit-content;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 8px;
 }
