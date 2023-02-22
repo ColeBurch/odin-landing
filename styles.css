@@ -1,11 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-family: "Hero Main text", sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -20,6 +30,8 @@ ul {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    background-color: #1F2937;
 }
 
 .left-content {
@@ -27,5 +39,22 @@ ul {
     flex-direction: column;
     width: 300px;
     flex-shrink: 1;
+    gap: 10px;
 }
 
+.ski {
+    width: 300px;
+    height: auto;
+}
+
+.title{
+    font-family: "Hero Main text", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    padding: 8px 24px;
+    width: fit-content;
+}
