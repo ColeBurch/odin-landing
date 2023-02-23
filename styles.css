@@ -48,6 +48,7 @@ ul {
 .ski {
     width: 350px;
     height: auto;
+    border-radius: 10px;
 }
 
 .title{
@@ -93,11 +94,14 @@ button {
     gap: 30px;
 }
 
-img {
+.card-image {
     width: 180px;
     height: 180px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
 }
 
 .info {
     width: 180px;
+    text-align: center;
 }
